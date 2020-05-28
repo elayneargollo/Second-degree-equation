@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Equação Segundo Grau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h2>Equação do 2º grau</h2>
+    <p>
+      Essa aplicação tem como objetivo calcular as raizes de uma equação de
+      segundo grau.<br />Entre com os valores dos coeficientes a,b e c para obter as raizes.
+      <br/>Representação ax² + bx + c = 0
+    </p>
+
+    <div class="col">
+      <div class='box'>
+      <h3><span>Enter values</span></h3>
+
+      Value of a:
+      <input type="number" value="0" id="valorA" />
+      Value of b:
+      <input type="number" value="0" id="valorB" />
+      Value ofc:
+      <input type="number" value="0" id="valorC" />
+      <input type="submit" value="Calculate" id="button" />
+      <input type="submit" value="Reset" id="limpar" />
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="user-list">
+        <h3><span id="resolutionn">No calculated value</span></h3>
+        <div id="tabResolutionn"></div>
+      </div>
+    </div>
+
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
